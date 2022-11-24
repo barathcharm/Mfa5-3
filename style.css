@@ -1,0 +1,140 @@
+
+    body{
+      background-color: #0d1a2d;
+      font-family: 'Outfit', sans-serif;
+    }
+    .container{
+      display: flex;
+    }
+    .main1{
+     margin-top: 50px;
+     margin-left:50px;
+      width:900px;
+      height: 1000px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content{
+      margin:30px;
+      height:430px;
+      width:210px;
+      background-color: #15273f;
+      padding:15px;
+      color:#7f95b4;
+      border-radius:10px;
+    }
+    p{
+      font-size: 13px;
+    }
+    #ethernium{
+      width:210px;
+      border-radius:10px;
+    }
+    .content h3{
+      color:white;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .value{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      font-size: 18px;
+    }
+    .value :nth-child(1){
+      color:#04fbf9;
+    }
+    hr{
+      border:0.5px solid #7f95b4;
+      opacity: .6;
+    }
+    .footer{
+      display: flex;
+      margin-top:10px;
+      align-items: center;
+    }
+    .footer img{
+      width:30px;
+      height:30px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: white 1px solid;
+    }
+    .valuepara{
+      display: flex;
+      align-items: center;
+    }
+    .valuepara img{
+      margin-right:5px;
+    }
+    #name{
+      color:white;
+    }
+   
+    .main2{
+      height: 980px;
+      width:400px;
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .content2{
+      width:380px;
+      height:220px;
+      background-color: #15273f;
+      display: flex;
+      padding:5px;
+      color:#7f95b4;
+      font-weight: 500;
+      border-radius: 10px;
+    }
+    .content2-1{
+      margin:10px;
+    }
+    .values2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #eth{
+      display: flex;
+      align-items: center;
+    }
+    #eth img{
+      margin-right: 5px;;
+    }
+    #eth p{
+      color:#04fbf9;
+    }
+    #ether{
+      width:150px;
+      height: 150px;
+      border-radius: 10px;
+    }
+    .content2-2{
+      margin:10px;
+      width:160px;
+    }
+    .content2-2 h3{
+      color:white;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .content2-2 >p{
+      font-size: 15px;
+    }
+    .footer2{
+      margin-top:30px;
+      display: flex;
+      align-items: center;
+    }
+    .footer2 img{
+      width:30px;
+      height: 30px;
+      float: left;
+      margin-right: 10px;
+      border: 1px solid white;
+      border-radius: 50%;
+    }
